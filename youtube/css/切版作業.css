@@ -1,0 +1,329 @@
+#main{
+    width: 100%;
+    height: 100%;
+}
+#top{
+    width: 100%;
+    height: 8%;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+}
+#bars{
+    position: absolute;
+    top: 40%;
+    left: 25px;
+}
+.bars{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: #4f4f4f00;
+    position: absolute;
+    top: 17%;
+    left: 16px;
+}
+.bars:hover{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: #6868687a;
+    position: absolute;
+    top: 17%;
+    left: 16px;
+    cursor: pointer;
+}
+#YT{
+    position: absolute;
+    top: 40%;
+    left: 70px;
+}
+#yt{
+    position: absolute;
+    top: 25%;
+    left: 110px;
+    font-family:"Roboto";
+    text-align: left;
+    font-size: 22px;
+    font-weight: bold;
+}
+#a{
+    color: black;
+}
+#search{
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    width: 600px;
+    height: 35px;
+    border: 0.5px solid #b8b8b8;
+    background-color: rgb(255, 255, 255);
+    border-top-left-radius: 15px;
+    border-bottom-left-radius:15px ;
+}
+#search-btn{
+    width: 60px;
+    height: 39px;
+    border: 0.5px solid #b8b8b8;
+    background-color: rgba(255, 255, 255, 0);
+    position: absolute;
+    border-top-right-radius:15px ;
+    border-bottom-right-radius:15px ;
+    top: 20%;
+    left: 61.6%;
+}
+#search-btn:hover{
+    background-color:#e2e2e260;
+    cursor: pointer;
+}
+#sear{
+    position: absolute;
+    top: 35%;
+    left:62.5%;
+    z-index: -1;
+}
+#mic{
+    position: absolute;
+    top: 35%;
+    left: 66.5%;
+    z-index: -1;
+}
+.mic{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #e4e4e400;
+    position: absolute;
+    top: 20%;
+    left: 65.75%;
+}
+.mic:hover{
+    background-color: #67676747;
+    width: 40px;
+    height:40px;
+    border-radius: 50%;
+    position: absolute;
+    top: 20%;
+    left: 65.75%;
+    cursor: pointer;
+}
+#dots{
+    position: absolute;
+    top: 32%;
+    left: 92%;
+}
+.dots{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #e4e4e400;
+    position: absolute;
+    top: 17%;
+    left: 91.15%;
+}
+.dots:hover{
+    background-color: #67676747;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    top: 17%;
+    left: 91.15%;
+    cursor: pointer;
+}
+#signin{
+    position: absolute;
+    top: 35%;
+    left: 95%;
+}
+#sig{
+    position: relative;
+    color: #2f77d0;
+    top: 35%;
+    left: 96.5%;
+}
+.signin{
+    width: 80px;
+    height: 30px;
+    background: #ffffff00;
+    border: 0.5px solid rgb(208, 208, 208);
+    border-radius: 15px;
+    position: absolute;
+    top: 25%;
+    left: 94.5%;
+}
+.signin:hover{
+    background-color: #438dbe3c;
+    cursor: pointer;
+}
+
+
+#top2{
+    width: 86.5%;
+    height: 4%;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    left: 13.5%;
+    top: 8%;
+}
+
+td:nth-child(odd){
+    width: auto;
+    background: #e7e7e7;
+    border-radius: 8px;
+    padding: 7px;
+    font-size: 14px;
+}
+td:nth-child(odd):hover{
+    background-color: rgb(207, 207, 207);
+    cursor: pointer;
+    
+}
+td:nth-child(even){
+padding: 6px;
+}
+
+
+#left{
+    width: 12.5%;
+    height: 93.5%;
+    /* background-color: lightgreen; */
+    position: fixed;
+    top: 8%;
+    overflow: scroll;
+}
+
+#left::-webkit-scrollbar{
+    width: 8px;
+}
+#left::-webkit-scrollbar-thumb{
+    background: #aaaaaa;
+    border-radius: 15px;
+}
+
+.w{
+    width: 85%;
+    background-color: #ffffff;
+    position: relative;
+    left: 10px;
+    border: 0;
+    padding: 10px;
+}
+.q{
+    width: 85%;
+    background-color: #ffffff;
+    position: relative;
+    left: 10px;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px;
+}
+.q:hover{
+    background-color: #e7e7e7;
+    cursor: pointer;
+}
+.text{
+    font-family: "toboro";
+    font-size: 15px;
+    position: absolute;
+    left: 60px;
+}
+hr{
+    border: 0.1px solid rgb(227, 227, 227);
+}
+.signin2{
+    width: 80px;
+    height: 30px;
+    background: #ffffff00;
+    border: 0.5px solid rgb(208, 208, 208);
+    border-radius: 15px;
+    position: relative;
+    display: flex;
+}
+.signin2:hover{
+    width: 80px;
+    height: 30px;
+    background:#438dbe3c;
+    position: relative;
+    cursor: pointer;
+    display: flex;
+}
+#signin2{
+    position: absolute;
+    top: 35%;
+    left: 8%;
+}
+#sig2{
+    position: absolute;
+    top: 35%;
+    left: 20%;
+    color: #2f77d0;
+}
+#down{
+    width: 100%;
+    height: 20%;
+}
+#down i{
+    font-size: 13px;
+    line-height: 20px;
+    position: relative;
+    left: 10%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+#content{
+    width: 86%;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    margin: auto;
+    left: 13.5%;
+    top: 12%;
+    display: block;
+    z-index: -1;
+}
+.card{
+    width: 300px;
+    height: 260px;
+    /* background-color: #df9595; */
+    display: inline-block;
+    position: relative;
+    margin: 10px;
+}
+#img1{
+    width: 300px;
+    position: absolute;
+    border-radius: 15px;
+}
+.little{
+    position: absolute;
+    width: 40px;
+    top: 70%;
+    border-radius: 50%;
+
+}
+.t{
+    position: absolute;
+    top: 70%;
+    left:15%;
+    font-size: 17px;
+    line-height: 20px;
+}
+.tt{
+    position: absolute;
+    top: 85%;
+    left:15%;
+    color: #545454;
+    line-height: 18px;
+    font-size: 13px;
+}
+.card:hover{
+    cursor: pointer;
+}
+body::-webkit-scrollbar{
+    width: 8px;
+}
+body::-webkit-scrollbar-thumb{
+    background: #aaaaaa;
+    border-radius: 15px;
+}
